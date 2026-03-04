@@ -1,5 +1,5 @@
 from telegram.ext import Updater, MessageHandler, Filters
-TOKEN = "PUT_YOUR_NEW_TOKEN_HERE"
+TOKEN = '8131202922:AAH2TvegSoedW-I2d8qLU-GX3WNKaf-epRo'
 def reply(update, context):
     text = update.message.text.lower().strip()
     if "what should i eat" in text and "1/15/2026" in text:
